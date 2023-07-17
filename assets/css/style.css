@@ -10,19 +10,27 @@ body {
     height: 100vh;
     background: linear-gradient(120deg, #020024, #c918e3);
     display: flex;
+    align-items: center;
     margin-top: 60px;
-    align-items: flex-start;
     justify-content: center;
-    margin-left: 335px;
+    flex-direction: column;
 }
 
+.other-clocks {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
 
 .relogio-br {
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 200px;
-    width: 550px;
+    width: 100%;
+    margin-bottom: 30px;
+    max-width: 550px;
     background: transparent;
     border-radius: 3px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
@@ -30,7 +38,8 @@ body {
 
 .relogio-br div {
     height: 170px;
-    width: 150px;
+    width: 100%;
+    max-width: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +65,8 @@ body {
     align-items: center;
     justify-content: space-around;
     height: 100px;
-    width: 275px;
+    width: 100%;
+    max-width: 275px;
     background: transparent;
     border-radius: 1.5px;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, .25);
@@ -86,16 +96,92 @@ body {
     font-size: 5px;
 }
 
-.relogio-br, .relogio-us {
-    margin-right: 15px;
+.relogio-br, .relogio-us, .relogio-en, .relogio-jp {
+    margin-right: 20px;
 }
+
+.washington, .greenwich, .tokyo {
+    margin-right: 20px;
+}
+
+.relogio-jp {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    max-width: 275px;
+    background: transparent;
+    border-radius: 1.5px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, .25);
+}
+
+.relogio-jp div {
+    height: 85px;
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(0, 0, 0, .25);
+    box-shadow: rgba(0, 0, 0, .35);
+    border-radius: 3.5px;
+    letter-spacing: 1.5px;
+
+}
+
+.relogio-jp span {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.relogio-jp span.tempo {
+    font-size: 5px;
+}
+
+.relogio-en {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    max-width: 275px;
+    background: transparent;
+    border-radius: 1.5px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, .25);
+}
+
+.relogio-en div {
+    height: 85px;
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(0, 0, 0, .25);
+    box-shadow: rgba(0, 0, 0, .35);
+    border-radius: 3.5px;
+    letter-spacing: 1.5px;
+
+}
+
+.relogio-en span {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.relogio-en span.tempo {
+    font-size: 5px;
+}
+
 
 .title-us {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
-    margin-top: 40px;
+    margin-top: 20px;
     color: #fff;
     font-weight: bolder;
 }
