@@ -14,6 +14,7 @@ body {
     margin-top: 60px;
     justify-content: center;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .other-clocks {
@@ -45,7 +46,7 @@ body {
     align-items: center;
     justify-content: center;
     color: #fff;
-    background: rgba(5,5,5,.9);
+    background: rgba(0, 0, 0, .25);
     box-shadow: rgba(0, 0, 0, .7);
     border-radius: 7px;
     letter-spacing: 3px;
@@ -63,7 +64,7 @@ body {
 .relogio-us {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 100px;
     width: 100%;
     max-width: 275px;
@@ -101,13 +102,13 @@ body {
 }
 
 .washington, .greenwich, .tokyo {
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .relogio-jp {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 100px;
     width: 100%;
     max-width: 275px;
@@ -143,7 +144,7 @@ body {
 .relogio-en {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 100px;
     width: 100%;
     max-width: 275px;
