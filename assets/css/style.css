@@ -7,8 +7,12 @@
 }
 
 body {
+    background-image:url(https://cdn.dribbble.com/users/84109/screenshots/14097546/animation.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
     height: 100vh;
-    background: linear-gradient(120deg, #020024, #c918e3);
+    background-position: center;
+    /*background: linear-gradient(120deg, #020024, #c918e3);*/
     display: flex;
     align-items: center;
     margin-top: 60px;
@@ -22,7 +26,7 @@ body {
     align-items: flex-start;
     font-size: small;
     margin-bottom: 10%;
-    color: #020024;
+    color: #fff;
 }
 
 .link-site a{
