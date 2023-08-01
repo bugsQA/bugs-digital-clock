@@ -17,6 +17,18 @@ body {
     overflow: hidden;
 }
 
+.link-site p{
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: small;
+    margin-bottom: 10%;
+    color: #020024;
+}
+
+.link-site a{
+    color:#fff
+}
+
 .other-clocks {
     align-items: center;
     justify-content: center;
